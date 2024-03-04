@@ -1,0 +1,144 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+//import Note from '~/components/widgets/Note.astro';
+import Features from '~/components/widgets/Features.astro';
+//import Features2 from '~/components/widgets/Features2.astro';
+//import Steps from '~/components/widgets/Steps.astro';
+//import Content from '~/components/widgets/Content.astro';
+//import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+//import FAQs from '~/components/widgets/FAQs.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Cafe Makafe',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+  <div class="seccion-con-fondo fondo-con-imagen borde-image borde-letras" style="background-image: url('/src/assets/images/granos-de-cafe-10872.png')">
+    <div class="text-black text-8xl">
+      <span class="text-accent dark:text-black highlight">Makafe</span>
+      lo mejor de Colombia
+      <span class="hidden xl:inline"></span>
+    </div>
+  </div>
+
+
+
+
+  <Features
+    id="features"
+    tagline="Caracteristicas"
+    title="Lo que optienes con cafe Makafe"
+    subtitle="Uno de los mejores cafes colombianos actualmente en el mercado."
+    items={[
+      {
+        title: 'Astro + Tailwind CSS Integration',
+        description:
+          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+        icon: 'tabler:brand-tailwind',
+      },
+      {
+        title: 'Ready-to-use Components',
+        description:
+          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+        icon: 'tabler:components',
+      },
+      {
+        title: 'Best Practices',
+        description:
+          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
+        icon: 'tabler:list-check',
+      },
+      {
+        title: 'Excellent Page Speed',
+        description:
+          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+        icon: 'tabler:rocket',
+      },
+      {
+        title: 'Search Engine Optimization (SEO)',
+        description:
+          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
+        icon: 'tabler:arrows-right-left',
+      },
+      {
+        title: 'Open to new ideas and contributions',
+        description:
+          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
+        icon: 'tabler:bulb',
+      },
+    ]}
+  />
+
+  <Stats
+    stats={[
+      { title: 'Prouductos vendidos', amount: '132K' },
+      { title: 'Stars', amount: '4.8' },
+      { title: 'CLientes', amount: '10.3K' },
+      { title: 'Visitas', amount: '48.4K' },
+    ]}
+  />
+
+
+
+  <Hero
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Siguenos',
+        href: 'https://www.instagram.com/cafe_makafe/',
+        target: '_blank',
+        icon: 'tabler:download',
+      },
+      { text: 'Whatsapp', href: 'https://wa.me/573114500604',target: '_blank' },
+    ]}
+    
+    
+  >
+    <Fragment slot="title">
+      <span class="text-accent dark:text-white highlight"> Makafe</span>
+      lo mejor de colombia <span class="hidden xl:inline"></span>
+      
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        <span class="font-semibold">Makafe </span> eleva tus sentidos</span
+      >
+      
+    </Fragment>
+  </Hero>
+
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Siguenos',
+        href: 'https://www.instagram.com/cafe_makafe/',
+        target: '_blank',
+        icon: 'tabler:download',
+      },
+    ]}
+  >
+    <Fragment slot="title">
+      Cafe&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Makafe</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Cafe colombiano y alguna otra frase para poner :P
+    </Fragment>
+  </CallToAction>
+</Layout>
+
+
+
+
