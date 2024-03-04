@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://makafe.vercel.app/sitemap-index.xml
