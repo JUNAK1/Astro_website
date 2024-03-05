@@ -1,5 +1,3 @@
-# Ignora todos los archivos y subcarpetas excepto la carpeta dist
-
 **/*
 !dist/
 
