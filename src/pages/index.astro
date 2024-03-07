@@ -4,37 +4,90 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 //import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
-//import Features2 from '~/components/widgets/Features2.astro';
-//import Steps from '~/components/widgets/Steps.astro';
-//import Content from '~/components/widgets/Content.astro';
-//import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
-//import FAQs from '~/components/widgets/FAQs.astro';
+
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+
 
 const metadata = {
   title: 'Cafe Makafe',
   ignoreTitleTemplate: true,
 };
+//https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihaxCBqaG-XsKIW7v4z3a1EnMuRiRVLUqmNNTpF6KzwKSLhDxRlUlohYFXDPs_wlld-5ipxPJ81ac72XtB3r6QysxnuOCQ=w1366-h641
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
-  <div class="seccion-con-fondo fondo-con-imagen borde-image borde-letras" style="background-image: url('https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihaxCBqaG-XsKIW7v4z3a1EnMuRiRVLUqmNNTpF6KzwKSLhDxRlUlohYFXDPs_wlld-5ipxPJ81ac72XtB3r6QysxnuOCQ=w1366-h641');
-  "
-    <div class="text-black text-8xl">
-      <span class="text-accent dark:text-black highlight">Makafe</span>
-      lo mejor de Colombia
-      <span class="hidden xl:inline"></span>
-    </div>
+<div class="seccion-con-fondo fondo-con-imagen borde-image" style="background-image: url('https://e1.pxfuel.com/desktop-wallpaper/276/172/desktop-wallpaper-coffee-beans-backgrounds-beans.jpg');">
+  <div class="text-white" style="font-size: 10rem;"> <!-- Adjusted font size here -->
+    <span class="text-accent dark:text-black highlight">Makafe</span>
+    lo mejor de Colombia
+    <span class="hidden xl:inline"></span>
   </div>
+</div>
+
+
+
+  <div class="product-gallery">
+    <div class="product-row">
+
+      <a href="/producto/1" class="product-link">
+    <div class="product flex">
+      <img src="https://macizocafe.com/wp-content/uploads/2021/03/bourbon-rosado.png" alt="Producto 1">
+      <h3>Producto 1</h3>
+      <p>$50</p>
+    </div>
+    </a>
+
+    
+    <a href="/producto/2" class="product-link">
+    <div class="product flex">
+      <img src="https://macizocafe.com/wp-content/uploads/2021/03/bourbon-rosado.png" alt="Producto 2">
+      <h3>Producto 2</h3>
+      <p>$60</p>
+    </div>
+  </a>
+  
+    <a href="/producto/3" class="product-link">
+    <div class="product flex">
+      <img src="https://macizocafe.com/wp-content/uploads/2021/03/bourbon-rosado.png" alt="Producto 3">
+      <h3>Producto 3</h3>
+      <p>$70</p>
+    </div>
+  </a>
+  </div>
+  </div>
+
+
+  <!-- 
+    <div class="product">
+      <img src="https://macizocafe.com/wp-content/uploads/2021/03/bourbon-rosado.png" alt="Producto 4">
+      <h3>Producto 4</h3>
+      <p>$70</p>
+    </div>
+    <div class="product">
+      <img src="https://macizocafe.com/wp-content/uploads/2021/03/bourbon-rosado.png" alt="Producto 5">
+      <h3>Producto 3</h3>
+      <p>$70</p>
+    </div>
+    <div class="product">
+      <img src="https://macizocafe.com/wp-content/uploads/2021/03/bourbon-rosado.png" alt="Producto 6">
+      <h3>Producto 3</h3>
+      <p>$70</p>
+    </div>
+  -->
+
+
+
+
+
+
 
 
 
 
   <Features
     id="features"
-    tagline="Caracteristicas"
+    tagline=""
     title="Lo que optienes con cafe Makafe"
     subtitle="Uno de los mejores cafes colombianos actualmente en el mercado."
     items={[
@@ -143,3 +196,11 @@ const metadata = {
 
 
 
+<!--
+//import Features2 from '~/components/widgets/Features2.astro';
+//import Steps from '~/components/widgets/Steps.astro';
+//import Content from '~/components/widgets/Content.astro';
+//import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+//import FAQs from '~/components/widgets/FAQs.astro';
+
+ -->
