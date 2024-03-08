@@ -9,7 +9,7 @@ export const headerData = {
           text: 'Productos',
           href: getBlogPermalink(),
           //href: getPermalink('/homes/saas'),
-        },
+        },/*
         {
           text: 'Video',
           href: getPermalink('/homes/startup'),
@@ -17,11 +17,15 @@ export const headerData = {
         /*{
           text: 'Mobile App',
           href: getPermalink('/homes/mobile-app'),
-        },*/
+        },
         {
           text: 'Personal',
           href: getPermalink('/homes/personal'),
         },
+        {
+          text: 'Coming Soon or Pre-Launch',
+          href: getPermalink('/pre-launch-copy'),
+        },*/
       ],
     },
     {
@@ -42,7 +46,7 @@ export const headerData = {
         {
           text: 'About us',
           href: getPermalink('/about'),
-        },
+        },/*
         {
           text: 'Contact',
           href: getPermalink('/contact'),
@@ -56,8 +60,8 @@ export const headerData = {
           href: getPermalink('/privacy'),
         },*/
       ],
-    },
-   /* {
+    },/*
+    {
       text: 'Landing',
       links: [
         {
@@ -92,15 +96,15 @@ export const headerData = {
         {
           text: 'souvenirs',
           href: getBlogPermalink(),
-        },
+        },/*
         {
           text: 'Maquinas',
           href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
+        },*/
         /*{
           text: 'Article (with MDX)',
           href: getPermalink('markdown-elements-demo-post', 'post'),
-        },*/
+        },
         {
           text: 'Category Page',
           href: getPermalink('tutorials', 'category'),
@@ -108,7 +112,7 @@ export const headerData = {
         {
           text: 'Tag Page',
           href: getPermalink('astro', 'tag'),
-        },
+        },*/
       ],
     },
     {

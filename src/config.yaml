@@ -1,6 +1,6 @@
 site:
   name: Makafe
-  site: 'https://Makafe.vercel.app'
+  site: 'https://cafemakafe.com'
   base: '/'
   trailingSlash: false
 
@@ -11,14 +11,14 @@ metadata:
   title:
     default: makafe
     template: '%s — Makafe'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "\U0001F680 Disfruta la excelencia en cada sorbo: Café Makafe, donde la calidad se encuentra en cada grano."
   robots:
     index: true
     follow: true
   openGraph:
     site_name: makafe
     images:
-      - url: '~/assets/images/default.png'
+      - url: 'https://lh3.googleusercontent.com/drive-viewer/AKGpihbFrhI91Pbrif9YFnW84iPL1ymM8hnKOWXiZLjtP4-brK-bCVjI17wflrvI1rfxYN2HVSSLWAsKhvr7O22rZFN0h5IA1Q=w1960-h1394'
         width: 1200
         height: 628
     type: website
@@ -28,7 +28,7 @@ metadata:
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: es
   textDirection: ltr
 
 apps:

@@ -7,7 +7,7 @@ import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
-  title: 'About us',
+  title: 'Nuestra historia',
 };
 ---
 
@@ -15,26 +15,24 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="About us"
+    tagline=""
     image={{
-      src: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      src: 'https://st3.depositphotos.com/1473952/12536/i/450/depositphotos_125363882-stock-photo-growing-coffee-plants.jpg',
       alt: 'Caos Image',
     }}
   >
     <Fragment slot="title">
-      Elevate your online presence with our <br />
-      <span class="text-accent dark:text-white highlight"> Beautiful Website Templates</span>
+      Conozca la maravillosa historia de  <br />
+      <span class="text-accent dark:text-white highlight"> Cafe Makafe</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      Donec efficitur, ipsum quis congue luctus, mauris magna convallis mauris, eu auctor nisi lectus non augue. Donec
-      quis lorem non massa vulputate efficitur ac at turpis. Sed tincidunt ex a nunc convallis, et lobortis nisi tempus.
-      Suspendisse vitae nisi eget tortor luctus maximus sed non lectus.
+     Cafe de tostion media de muy buena calidad
     </Fragment>
   </Hero>
 
   <!-- Stats Widget ****************** -->
-
+<!-- 
   <Stats
     title="Statistics about us"
     stats={[
@@ -44,31 +42,31 @@ const metadata = {
       { title: 'Awards', amount: '24' },
     ]}
   />
-
+-->
   <!-- Features3 Widget ************** -->
 
   <Features3
-    title="Our templates"
-    subtitle="Etiam scelerisque, enim eget vestibulum luctus, nibh mauris blandit nulla, nec vestibulum risus justo ut enim. Praesent lacinia diam et ante imperdiet euismod."
+    title="Beneficios del cafe"
+    subtitle="Solo o acompañado, para arrancar la rutina o durante una pausa en el trabajo, miles de personas adoptan al café como una bebida de ingesta diaria. Lo cierto es que no solo se trata de una infusión apetitosa, sino que su consumo conlleva ciertos beneficios para la salud."
     columns={3}
     isBeforeContent={true}
     items={[
       {
-        title: 'Educational',
+        title: 'Esperanza de vida',
         description:
-          'Morbi faucibus luctus quam, sit amet aliquet felis tempor id. Cras augue massa, ornare quis dignissim a, molestie vel nulla.',
+          'Los bebedores de café tienen menos probabilidades de morir por algunas de las principales causas de muerte como la enfermedad coronaria, el accidente cerebrovascular, la diabetes y la enfermedad renal.',
         icon: 'tabler:template',
       },
       {
-        title: 'Interior Design',
+        title: 'Reduce riesgo de diabetes tipo 2',
         description:
-          'Vivamus porttitor, tortor convallis aliquam pretium, turpis enim consectetur elit, vitae egestas purus erat ac nunc nulla.',
+          'Previene el deterioro de la función hepática y de las células beta durante el estrés metabólico crónico que precede a la manifestación de la diabetes manifiesta',
         icon: 'tabler:template',
       },
       {
-        title: 'Photography',
+        title: 'Menor riesgo de Parkinson',
         description:
-          'Duis sed lectus in nisl vehicula porttitor eget quis odio. Aliquam erat volutpat. Nulla eleifend nulla id sem fermentum.',
+          'La cafeína no solo reduce el riesgo de Parkinson, sino que también mejora el control de movimientos en quienes lo padecen.',
         icon: 'tabler:template',
       },
     ]}
@@ -81,50 +79,50 @@ const metadata = {
     isAfterContent={true}
     items={[
       {
-        title: 'E-commerce',
+        title: 'El café protege el hígado',
         description:
-          'Rutrum non odio at vehicula. Proin ipsum justo, dignissim in vehicula sit amet, dignissim id quam. Sed ac tincidunt sapien.',
+          'Las investigaciones muestran que los bebedores de café tienen más probabilidades de tener niveles de enzimas hepáticas dentro de un rango saludable que las personas que no beben café',
         icon: 'tabler:template',
       },
       {
-        title: 'Blog',
+        title: 'Fortalece el ADN',
         description:
-          'Nullam efficitur volutpat sem sed fringilla. Suspendisse et enim eu orci volutpat laoreet ac vitae libero.',
+          'El café disminuye la rotura de las hebras de ADN que se producen de forma natural pero que pueden provocar cáncer o tumores si las células no las reparan',
         icon: 'tabler:template',
       },
       {
-        title: 'Business',
+        title: 'Mejor rendimiento fisico',
         description:
-          'Morbi et elit finibus, facilisis justo ut, pharetra ipsum. Donec efficitur, ipsum quis congue luctus, mauris magna.',
+          'El café antes de hacer ejercicio puede mejorar el rendimiento físico. La cafeína aumenta los niveles de adrenalina en sangre por lo que el café tiene beneficios sobre la preparación del cuerpo ante un esfuerzo importante',
         icon: 'tabler:template',
       },
       {
-        title: 'Branding',
+        title: 'Antidepresivo natural',
         description:
-          'Suspendisse vitae nisi eget tortor luctus maximus sed non lectus. Cras malesuada pretium placerat. Nullam venenatis dolor a ante rhoncus.',
+          'El café regula nuestro estrés al bloquear los receptores de la dopamina, un neurotransmisor relacionado con la ansiedad y el estrés. Si ese neurotransmisor está alterado corremos el riesgo de padecer un estado depresivo.',
         icon: 'tabler:template',
       },
       {
-        title: 'Medical',
+        title: 'Antioxidantes',
         description:
-          'Vestibulum malesuada lacus id nibh posuere feugiat. Nam volutpat nulla a felis ultrices, id suscipit mauris congue. In hac habitasse platea dictumst.',
+          'El café es un producto rico en compuestos antioxidantes, especialmente en polifenoles que actúan contra los radicales libres y algunos metales pesados que provocan el envejecimiento de los tejidos',
         icon: 'tabler:template',
       },
       {
-        title: 'Fashion Design',
+        title: 'Te mantiene alerta',
         description:
-          'Maecenas eu tellus eget est scelerisque lacinia et a diam. Aliquam velit lorem, vehicula id fermentum et, rhoncus et purus.',
+          'La sensación de energía que notamos cuando nos tomamos una taza de café por la mañana se debe a que el café estimula el aumento de sustancias como la dopamina, que aceleran nuestra actividad cerebral. ',
         icon: 'tabler:template',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
+      src: 'https://casaeguia.com/modules/tvcmsblog/views/img/b-beneficios-del-cafe-para-la-salud.jpg',
       alt: 'Colorful Image',
     }}
   />
 
   <!-- Steps2 Widget ****************** -->
-
+<!-- 
   <Steps2
     title="Our values"
     subtitle="Maecenas eu tellus eget est scelerisque lacinia et a diam. Aliquam velit lorem, vehicula id fermentum et, rhoncus et purus. Nulla facilisi. Vestibulum malesuada lacus."
@@ -147,7 +145,7 @@ const metadata = {
     ]}
   />
 
-  <!-- Steps2 Widget ****************** -->
+  
 
   <Steps2
     title="Achievements"
@@ -178,7 +176,7 @@ const metadata = {
     ]}
   />
 
-  <!-- Features2 Widget ************** -->
+  
 
   <Features2
     title="Our locations"
@@ -204,7 +202,7 @@ const metadata = {
     ]}
   />
 
-  <!-- Features2 Widget ************** -->
+  
 
   <Features2
     title="Technical Support"
@@ -225,4 +223,5 @@ const metadata = {
       },
     ]}
   />
+-->
 </Layout>

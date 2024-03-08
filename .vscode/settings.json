@@ -16,5 +16,19 @@
   },
   "yaml.schemas": {
     "./.vscode/astrowind/config-schema.json": "/src/config.yaml"
-  }
+  },
+  "files.exclude": {
+    "**/.DS_Store": false,
+    "**/.git": false,
+    "**/.hg": false,
+    "**/.svn": false,
+    "**/CVS": false,
+    "**/Thumbs.db": false
+  },
+  "search.exclude": {
+    "**/*.code-search": false,
+    "**/bower_components": false,
+    "**/node_modules": false
+  },
+  "search.useIgnoreFiles": false
 }

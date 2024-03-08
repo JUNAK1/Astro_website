@@ -25,8 +25,67 @@ const metadata = {
   </div>
 </div>
 
+<!-- 
+<a href="/product/nombre-del-producto">
+  <img src="ruta-a-la-imagen-del-producto.jpg" alt="Producto">
+</a>
+-->
+<Fragment>
+  <div class="grid grid-cols-3 gap-4">
+    
+  <a href="/astrowind-template-in-depth" target="_blank">
+    <div class="bg-gray-200 p-4 text-center">
+      <img src="https://macizocafe.com/wp-content/uploads/2021/03/bourbon-rosado.png" alt="Producto 1" class="mx-auto h-54 w-54">
+      <p class="text-sm mt-2">Nombre del producto 1</p>
+      <p class="text-sm font-bold">$99.99</p>
+    </div>
+  </a>
+
+    <!-- Imagen 2 -->
+  <a href="/how-to-customize-astrowind-to-your-brand">
+    <div class="bg-gray-200 p-4 text-center">
+      <img src="https://img.freepik.com/vector-gratis/taza-negra-aislada_1284-42454.jpg" alt="Producto 2" class="mx-auto h-54 w-54">
+      <p class="text-sm mt-2">Nombre del producto 2</p>
+      <p class="text-sm font-bold">$79.99</p>
+    </div>
+  </a>
+
+    <!-- Imagen 3 -->
+  <a href="/useful-resources-to-create-websites">
+    <div class="bg-gray-200 p-4 text-center">
+      <img src="https://macizocafe.com/wp-content/uploads/2021/03/bourbon-rosado.png" alt="Producto 3" class="mx-auto h-54 w-54">
+      <p class="text-sm mt-2">Nombre del producto 3</p>
+      <p class="text-sm font-bold">$59.99</p>
+    </div>
+  </a>
+  </div>
+
+</Fragment>
+
+<Fragment>
+  <a>
+  <div class="max-w-3xl mx-auto p-4">
+    <!-- Aquí irá el contenido específico del producto -->
+    <h1 class="text-2xl font-bold mb-4">Nombre del Producto</h1>
+    <img src="https://macizocafe.com/wp-content/uploads/2021/03/bourbon-rosado.png" alt="Producto" class="w-full mb-4">
+    <p class="text-gray-600">Descripción del producto...</p>
+    <p class="text-green-600 font-bold">$99.99</p>
+  </div>
+</a>
+</Fragment>
 
 
+
+
+
+
+
+
+
+
+
+
+<!-- 
   <div class="product-gallery">
     <div class="product-row">
 
@@ -56,35 +115,11 @@ const metadata = {
   </a>
   </div>
   </div>
-
-
-  <!-- 
-    <div class="product">
-      <img src="https://macizocafe.com/wp-content/uploads/2021/03/bourbon-rosado.png" alt="Producto 4">
-      <h3>Producto 4</h3>
-      <p>$70</p>
-    </div>
-    <div class="product">
-      <img src="https://macizocafe.com/wp-content/uploads/2021/03/bourbon-rosado.png" alt="Producto 5">
-      <h3>Producto 3</h3>
-      <p>$70</p>
-    </div>
-    <div class="product">
-      <img src="https://macizocafe.com/wp-content/uploads/2021/03/bourbon-rosado.png" alt="Producto 6">
-      <h3>Producto 3</h3>
-      <p>$70</p>
-    </div>
-  -->
+-->
 
 
 
-
-
-
-
-
-
-
+<!--
   <Features
     id="features"
     tagline=""
@@ -129,7 +164,7 @@ const metadata = {
       },
     ]}
   />
-
+    -->
   <Stats
     stats={[
       { title: 'Prouductos vendidos', amount: '132K' },
@@ -171,7 +206,7 @@ const metadata = {
 
 
   <!-- CallToAction Widget *********** -->
-
+ <!-- 
   <CallToAction
     actions={[
       {
@@ -183,6 +218,7 @@ const metadata = {
       },
     ]}
   >
+ 
     <Fragment slot="title">
       Cafe&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Makafe</span>
     </Fragment>
@@ -190,6 +226,7 @@ const metadata = {
     <Fragment slot="subtitle">
       Cafe colombiano y alguna otra frase para poner :P
     </Fragment>
+  -->
   </CallToAction>
 </Layout>
 

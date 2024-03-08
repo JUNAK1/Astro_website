@@ -33,7 +33,7 @@
   .borde-letras {
     -webkit-text-stroke-color: 8px black;
   }
-
+/*
   .product-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -44,21 +44,21 @@
   }
   
   .product {
-    width: calc(33.33% - 10px); /* Ajusta el tamaño de la imagen y su contenido */
-    margin: 10px; /* Espaciado entre los productos */
+    width: calc(33.33% - 10px); Ajusta el tamaño de la imagen y su contenido *
+    margin: 10px; /* Espaciado entre los productos *
     text-align: center;
   }
   
   .product img {
-    width: 90%; /* Para asegurarnos de que todas las imágenes tengan el mismo tamaño */
+    width: 90%; /* Para asegurarnos de que todas las imágenes tengan el mismo tamaño *
     height: auto;  
   }
   
   .product h3,
   .product p {
-    margin: 5px 0; /* Espaciado entre el nombre y el precio */
+    margin: 5px 0; /* Espaciado entre el nombre y el precio *
   }
-  
+  */
   
 }
 
