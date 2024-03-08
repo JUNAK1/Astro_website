@@ -44,7 +44,7 @@ apps:
 
     list:
       isEnabled: true
-      pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
+      pathname: 'productos' # Blog main path, you can change this to "articles" (/articles)
       robots:
         index: true
 
@@ -81,10 +81,10 @@ ui:
         default: rgb(16 16 16) #Negro
         heading: rgb(0 0 0)    #mas negro
         muted: rgb(40 40 40)    #negro claro
-        bgPage: rgb(249, 236, 194) 
+        bgPage: rgb(249, 236, 194) #Cafe claro
         primary: rgb(0 124 220)  #Azul claro         rgb(220 28 28)
-        secondary: rgb(55, 95, 165) #Azul oscuro     rbg(55, 95, 165)
-        accent: rgb(236, 50, 55)    
+        secondary: rgb(0, 55, 97) #Azul oscuro     rbg(55, 95, 165)
+        accent: rgb(255, 0, 0)    #Rojo
         info: rgb(236, 50, 55)    #azul mas claro    de los circulos de bulletpoint
         success: rgb(54 211 153)  #verde claro
         warning: rgb(251 189 35)  #naranja
@@ -94,8 +94,8 @@ ui:
     dark:
       fonts: {}
       colors:
-        default: rgb(247, 248, 248)
-        heading: rgb(247, 248, 248)
+        default: rgb(170, 170, 170)
+        heading: rgb(170, 170, 170)
         muted: rgb(200, 188, 208)
         bgPage: rgb(249, 236, 194) 
         primary: rgb(29 78 216)
