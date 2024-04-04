@@ -6,10 +6,26 @@ export const headerData = {
       text: 'Inicio',
       links: [
         {
+          text: 'Café del Huila',          
+          href: getPermalink('/cafe-huila'),
+        },
+        {
+          text: 'Beneficios del cafe',
+          href: getPermalink('/beneficios-cafe'),
+        },
+        {
+          text: 'Que nos inspira',
+          href: getPermalink('/que-nos-inspira'),
+        },
+        {
+          text: 'Quienes somos',
+          href: getPermalink('/quienes-somos'),
+        },
+       /* {
           text: 'Productos',
           href: getBlogPermalink(),
           //href: getPermalink('/homes/saas'),
-        },/*
+        },
         {
           text: 'Video',
           href: getPermalink('/homes/startup'),
@@ -28,8 +44,8 @@ export const headerData = {
         },*/
       ],
     },
-    {
-      text: 'Pages',
+   /* {
+      text: 'Paginas',
       links: [
        /* {
           text: 'Features (Anchor Link)',
@@ -42,25 +58,18 @@ export const headerData = {
         {
           text: 'Pricing',
           href: getPermalink('/pricing'),
-        },*/
-        {
-          text: 'About us',
-          href: getPermalink('/about'),
-        },/*
+        },
         {
           text: 'Contact',
           href: getPermalink('/contact'),
         },/*
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
+       
         {
           text: 'Privacy policy',
           href: getPermalink('/privacy'),
-        },*/
+        },
       ],
-    },/*
+    },
     {
       text: 'Landing',
       links: [
@@ -94,7 +103,7 @@ export const headerData = {
       text: 'Productos',
       links: [
         {
-          text: 'souvenirs',
+          text: 'productos',
           href: getBlogPermalink(),
         },/*
         {

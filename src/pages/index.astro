@@ -13,26 +13,30 @@ const metadata = {
   title: 'Cafe Makafe',
   ignoreTitleTemplate: true,
 };
-//https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihaxCBqaG-XsKIW7v4z3a1EnMuRiRVLUqmNNTpF6KzwKSLhDxRlUlohYFXDPs_wlld-5ipxPJ81ac72XtB3r6QysxnuOCQ=w1366-h641
 ---
-
-
 
 <Layout metadata={metadata}>
 
-<!-- 
-<a href="/product/nombre-del-producto">
-  <img src="ruta-a-la-imagen-del-producto.jpg" alt="Producto">
-</a>
--->
-
+<!--
 <div class="seccion-con-fondo fondo-con-imagen borde-image" style="background-image: url('https://e1.pxfuel.com/desktop-wallpaper/276/172/desktop-wallpaper-coffee-beans-backgrounds-beans.jpg');">
-  <div style="font-size: 10rem; color: rgb(222, 206, 194);"> <!-- Adjusted font size here -->
+  <div style="font-size: 10rem; color: rgb(222, 206, 194);"> 
     <span class="text-accent highlight">Makafe</span>
     lo mejor de Colombia
     <span class="hidden xl:inline"></span>
   </div>
 </div>
+-->
+<div class="seccion-con-fondo fondo-con-imagen borde-image imagen-fija" style="background-image: url('https://e1.pxfuel.com/desktop-wallpaper/276/172/desktop-wallpaper-coffee-beans-backgrounds-beans.jpg');">
+
+    <div>
+      <!-- <span class="text-accent highlight">Makafe</span>-->
+      <span style="font-size: 10vw; color: rgb(255, 0, 0);">Makafe</span>
+      <br>
+      <span style="font-size: 6vw; color: rgb(255, 255, 255);">café con conciencia</span>
+      <span class="hidden xl:inline"></span>
+    </div>
+</div>
+
 
 <br>
 <br>
@@ -41,18 +45,18 @@ const metadata = {
 <Fragment>
   <div class="grid grid-cols-3 gap-4">
     
-  <a href="/cafe-azul">
+  <a href="/bourbon-rosado">
     <div class="p-6 text-center">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUjIRgQRi_i7mrg1XS0ZoEBRERdZSETn3CQg&usqp=CAU" alt="Producto 1" class="mx-auto h-54 w-54 rounded-xl">
-      <p class="font-bold text-black">Café taza azul</p>
+      <p class="font-bold text-black">Café Bourbon Rosado</p>
       <p class="font-bold" style="color: #083F1C;">$99.99</p>
     </div>
   </a>
 
-  <a href="/cafe-naranja">
+  <a href="/plus-intenso">
     <div class="p-6 text-center">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUjIRgQRi_i7mrg1XS0ZoEBRERdZSETn3CQg&usqp=CAU" alt="Producto 2" class="mx-auto h-54 w-54 rounded-xl">
-      <p class="font-bold text-black">Café taza naranja</p>
+      <p class="font-bold text-black">Café Plus Intenso </p>
       <p class="font-bold" style="color: #083F1C;">$79.99</p>
     </div>
   </a>
@@ -91,67 +95,14 @@ const metadata = {
   </div>
 
 </Fragment>
-
-
-
-<!--
-  <Features
-    id="features"
-    tagline=""
-    title="Lo que optienes con cafe Makafe"
-    subtitle="Uno de los mejores cafes colombianos actualmente en el mercado."
-    items={[
-      {
-        title: 'Astro + Tailwind CSS Integration',
-        description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-        icon: 'tabler:brand-tailwind',
-      },
-      {
-        title: 'Ready-to-use Components',
-        description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-        icon: 'tabler:components',
-      },
-      {
-        title: 'Best Practices',
-        description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
-        icon: 'tabler:list-check',
-      },
-      {
-        title: 'Excellent Page Speed',
-        description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'Search Engine Optimization (SEO)',
-        description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-        icon: 'tabler:arrows-right-left',
-      },
-      {
-        title: 'Open to new ideas and contributions',
-        description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
-      },
-    ]}
-  />
-    -->
   <Stats
     stats={[
-      { title: 'Prouductos vendidos', amount: '132K' },
+      { title: 'Prouductos vendidos', amount: '13K' },
       { title: 'Stars', amount: '4.8' },
-      { title: 'CLientes', amount: '10.3K' },
-      { title: 'Visitas', amount: '48.4K' },
+      { title: 'CLientes', amount: '2K' },
+      { title: 'Visitas', amount: '48K' },
     ]}
   />
-
-
-
-
 
 
   <Hero
@@ -166,11 +117,10 @@ const metadata = {
       { text: 'Whatsapp', href: 'https://wa.me/573114500604',target: '_blank' },
     ]}
     
-    
   >
     <Fragment slot="title">
       <span class="text-accent dark:text-white highlight"> Makafe</span>
-      lo mejor de colombia <span class="hidden xl:inline"></span>
+      café con consiencia <span class="hidden xl:inline"></span>
       
     </Fragment>
 
@@ -182,29 +132,6 @@ const metadata = {
     </Fragment>
   </Hero>
 
-
-  <!-- CallToAction Widget *********** -->
- <!-- 
-  <CallToAction
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Siguenos',
-        href: 'https://www.instagram.com/cafe_makafe/',
-        target: '_blank',
-        icon: 'tabler:download',
-      },
-    ]}
-  >
- 
-    <Fragment slot="title">
-      Cafe&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Makafe</span>
-    </Fragment>
-
-    <Fragment slot="subtitle">
-      Cafe colombiano y alguna otra frase para poner :P
-    </Fragment>
-  -->
   </CallToAction>
 </Layout>
 

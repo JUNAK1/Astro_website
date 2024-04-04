@@ -30,9 +30,22 @@
   .borde-image {
     border: 2px solid rgb(233, 192, 143);
   }
-  .borde-letras {
-    -webkit-text-stroke-color: 8px black;
+  .contenedor-texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }  
+
+  .imagen-fija {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    max-width: 1348px;
   }
+ 
 /*
   .product-gallery {
     display: flex;
