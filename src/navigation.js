@@ -6,6 +6,14 @@ export const headerData = {
       text: 'Inicio',
       links: [
         {
+          text: 'Quienes somos',
+          href: getPermalink('/quienes-somos'),
+        },
+        {
+          text: 'Que nos inspira',
+          href: getPermalink('/que-nos-inspira'),
+        },
+        {
           text: 'Café del Huila',          
           href: getPermalink('/cafe-huila'),
         },
@@ -13,14 +21,8 @@ export const headerData = {
           text: 'Beneficios del cafe',
           href: getPermalink('/beneficios-cafe'),
         },
-        {
-          text: 'Que nos inspira',
-          href: getPermalink('/que-nos-inspira'),
-        },
-        {
-          text: 'Quienes somos',
-          href: getPermalink('/quienes-somos'),
-        },
+       
+        
        /* {
           text: 'Productos',
           href: getBlogPermalink(),

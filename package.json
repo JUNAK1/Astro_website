@@ -3,6 +3,7 @@
   "description": "makafe: A free template using Astro 4.0 and Tailwind CSS. Astro starter theme.",
   "version": "1.0.0-beta.18",
   "private": true,
+  "homepage": ".",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
