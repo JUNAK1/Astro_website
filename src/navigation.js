@@ -130,7 +130,7 @@ export const headerData = {
     
     },
   ],
-  actions: [{ text: 'Comprar', href: 'https://www.mercadolibre.com.co/', target: '_blank' }],
+  actions: [{ text: 'Comprar', href: 'https://articulo.mercadolibre.com.co/MCO-1415447013-cafe-bourbon-rosado-molido-_JM', target: '_blank' }],
 };
 
 export const footerData = {
@@ -142,7 +142,7 @@ export const footerData = {
     { text: 'Copyright © 2024 Café Makafe | Todos los derechos reservados'},
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/home?lang=en' },
+    { ariaLabel: 'GitHub', icon: 'tabler:brand-github', href: 'https://github.com/JUNAK1/Astro_website' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/cafe_makafe/'},
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/' },
     //{ ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },

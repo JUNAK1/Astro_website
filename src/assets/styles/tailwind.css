@@ -27,9 +27,7 @@
   .fondo-con-imagen {
     @apply bg-cover bg-center; /* Ajusta la imagen de fondo */
   }
-  .borde-image {
-    border: 2px solid rgb(233, 192, 143);
-  }
+
   .contenedor-texto {
     position: absolute;
     top: 50%;
@@ -45,6 +43,11 @@
     width: 100vw;
     max-width: 1348px;
   }
+  
+  .max-w-imagen {
+    max-width: 230px; /* Puedes ajustar este valor según tus necesidades */
+  }
+ 
  
 /*
   .product-gallery {
