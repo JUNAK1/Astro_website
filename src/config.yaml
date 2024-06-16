@@ -83,7 +83,7 @@ ui:
         muted: rgb(40 40 40)    #negro claro
         bgPage: rgb(249, 236, 194) #Cafe claro
         primary: rgb(0 124 220)  #Azul claro         rgb(220 28 28)
-        secondary: rgb(0, 55, 97) #Azul oscuro     rbg(55, 95, 165)
+        secondary: rgb(0, 0, 0) #Azul oscuro     rbg(55, 95, 165)
         accent: rgb(255, 0, 0)    #Rojo
         info: rgb(236, 50, 55)    #azul mas claro    de los circulos de bulletpoint
         success: rgb(54 211 153)  #verde claro
@@ -91,6 +91,7 @@ ui:
         error: rgb(248 114 114)
         link: var(--ph-color-primary)
         linkActive: var(--ph-color-link)
+        whatsapp: rgb(37 211 102)
     dark:
       fonts: {}
       colors:
@@ -107,6 +108,7 @@ ui:
         error: rgb(248 114 114)
         link: var(--ph-color-primary)
         linkActive: var(--ph-color-link)
+        whatsapp: rgb(37 211 102)
 
 
 

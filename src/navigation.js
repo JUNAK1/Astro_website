@@ -130,7 +130,7 @@ export const headerData = {
     
     },
   ],
-  actions: [{ text: 'Comprar', href: 'https://articulo.mercadolibre.com.co/MCO-1415447013-cafe-bourbon-rosado-molido-_JM', target: '_blank' }],
+  actions: [{ text: 'Comprar', href: 'https://www.mercadolibre.com.co/pagina/juancamiloserranocorreajuancam', target: '_blank' }],
 };
 
 export const footerData = {
